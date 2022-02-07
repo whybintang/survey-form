@@ -134,7 +134,7 @@ table {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -160,7 +160,11 @@ body {
 }
 .container {
   width: 800px;
-  padding: 10px;
+  padding: 20px;
   margin: auto;
-  background-color: #eaeaea;
+  background-color: #000;
+  opacity: 0.7;
+  border-radius: 5px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #fff;
 }
