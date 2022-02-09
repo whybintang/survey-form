@@ -89,49 +89,73 @@
             </div>
           </div>
           <div class="form-group">
-            <h2>what programming path do you like?</h2>
-            <select name="dropdown" id="dropdown">
-              <option disabled selected value>Open source</option>
-              <option value="machine-learning-developer">Machine Learning Developer</option>
-              <option value="android-developer">Android Developer</option>
-              <option value="ios-developer">iOS Developer</option>
-              <option value="front-end">Front-End Web Developer</option>
-              <option value="back-end">Back-End Developer</option>
-              <option value="azure-cloud">Azure Cloud Developer</option>
-              <option value="google-cloud">Google Cloud Professional</option>
-              <option value="multi-platform-app">Multi-Platform App Developer</option>
-            </select>
+            <div class="row">
+              <div class="col-md-12">
+                <h2>What programming path do you like?</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <select name="dropdown" id="dropdown">
+                  <option disabled selected value>Open source</option>
+                  <option value="machine-learning-developer">Machine Learning Developer</option>
+                  <option value="android-developer">Android Developer</option>
+                  <option value="ios-developer">iOS Developer</option>
+                  <option value="front-end">Front-End Web Developer</option>
+                  <option value="back-end">Back-End Developer</option>
+                  <option value="azure-cloud">Azure Cloud Developer</option>
+                  <option value="google-cloud">Google Cloud Professional</option>
+                  <option value="multi-platform-app">Multi-Platform App Developer</option>
+                </select>
+              </div>
+            </div>
           </div>
           <div class="form-group">
-            <h2>what programming language do you prefer?</h2>
-            <input type="checkbox" id="html" name="html" />
-            <label for="html">HTML</label><br />
-            <input type="checkbox" id="css" name="css" />
-            <label for="css">CSS</label><br />
-            <input type="checkbox" id="javascript" name="javascript" />
-            <label for="javascript">Javascript</label><br />
-            <input type="checkbox" id="php" name="php" />
-            <label for="php">PHP</label><br />
-            <input type="checkbox" id="phyton" name="phyton" />
-            <label for="phyton">Phyton</label><br />
-            <input type="checkbox" id="ruby" name="ruby" />
-            <label for="ruby">Ruby</label><br />
-            <input type="checkbox" id="c++" name="c++" />
-            <label for="c++">C++</label><br />
-            <input type="checkbox" id="pascal" name="pascal" />
-            <label for="pascal">Java Pascal</label><br />
-            <input type="checkbox" id="perl" name="perl" />
-            <label for="perl">Perl</label><br />
-            <input type="checkbox" id="sql" name="sql" />
-            <label for="sql">SQL</label><br />
-            <input type="checkbox" id="viu" name="viu" />
-            <label for="viu">VIU</label><br />
+            <div class="row">
+              <div class="col-md-12">
+                <h2 id="title-checkbox">What programming language do you prefer?</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input type="checkbox" id="html" name="html" />
+                <label for="html">HTML</label><br />
+                <input type="checkbox" id="css" name="css" />
+                <label for="css">CSS</label><br />
+                <input type="checkbox" id="javascript" name="javascript" />
+                <label for="javascript">Javascript</label><br />
+                <input type="checkbox" id="php" name="php" />
+                <label for="php">PHP</label><br />
+                <input type="checkbox" id="phyton" name="phyton" />
+                <label for="phyton">Phyton</label><br />
+                <input type="checkbox" id="ruby" name="ruby" />
+                <label for="ruby">Ruby</label><br />
+                <input type="checkbox" id="c++" name="c++" />
+                <label for="c++">C++</label><br />
+                <input type="checkbox" id="pascal" name="pascal" />
+                <label for="pascal">Java Pascal</label><br />
+                <input type="checkbox" id="perl" name="perl" />
+                <label for="perl">Perl</label><br />
+                <input type="checkbox" id="sql" name="sql" />
+                <label for="sql">SQL</label><br />
+                <input type="checkbox" id="viu" name="viu" />
+                <label for="viu">VIU</label><br />
+              </div>
+            </div>
           </div>
           <div class="form-group">
-            <p>Add your comment !</p>
-            <textarea name="comment" id="comment" cols="100%" rows="5">your comment . . .</textarea>
+            <div class="row">
+              <div class="col-md-12">
+                <h2 id="title-comment">Enter your comment in here . . .</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+              </div>
+            </div>
           </div>
-          <button name="send" type="submit" id="submit">Send</button>
+          <button type="button" class="btn btn-secondary" id="submit">Submit</button>
         </form>
       </div>
     </section>
